@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AİHL</title>
+    <style>
+        body{
+            background: #131313;
+            color:#525252;
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+        }
+      .sayfa{
+        width: 960px;
+        margin: auto;
+      }
+      .ust{
+        background-color: #232323;
+      }
+      #logo{
+        float: left;
+        width: 260px;
+        margin-top: 7px;
+        margin-left: 10px;
+      }
+      #logo H1{
+        margin:0;
+        padding: 0;
+        font-size: 42px;
+        text-transform: uppercase;
+      }
+      #logo H1 a{
+        font-family: Georgia;
+        text-decoration: none;
+        color: #DBDBDB;
+        letter-spacing: 3px;
+      }
+      #logo p{
+        color:#DBDBDB;
+        font-family: Georgia;
+        margin-left: 3px;
+        margin-top: 0;
+        padding-top: 0;
+        letter-spacing: 3px;
+      }
+      #menu {
+        float: right;
+        width: 650px;
+        margin: 30px 0 0 0;
+        padding: 0;
+        font-size: 13px;
+        text-align: right;
+      }
+      #menu ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+    #menu ul li{
+        display: inline;
+        margin-right: 35px;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        font-size: 13px;
+        font-family: Verdana;
+        color:#DBDBDB;
+    }
+    .orta{
+        margin-top: 20px;
+    }
+    .orta-sol{
+        width: 575px;
+        float: left;
+    }
+    .orta-sag{
+        width: 360px;
+        float: right;
+        height: 280px;
+        background-color: #FDC609;
+        padding: 10px;
+    }
+    .orta-sag img{
+        width: 100px;
+        height: 100px;
+        box-shadow: 10px 10px 10px gray;
+    }
+    .orta-resim{
+        margin: 0 25px;
+    }
+    .card{
+        width: 300px;
+        float: left;
+    }
+    .card:nth-child(3){
+        margin: 0;
+    }
+    
+    .card h1{
+        border-bottom: 1px dotted white;
+        padding-bottom: 15px;
+    }
+    .card p{
+        color: white;
+        font-size: 13px;
+    }
+    .button a{
+        display: inline-block;
+        padding: 10px 15px;
+        color:#FDC609;
+        background-color: #232323;
+        text-decoration: none;
+    }
+    .clear{
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+    <div class="sayfa">
+        <div class="ust">
+            <div id="logo">
+                <h1><a href="anasayfa.html">AİHL</a></h1>
+                <p>HTML CSS Web Sitesi</p>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="anasayfa.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="referanslar.html">Referanslar</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="orta">
+            <div class="orta-sol">
+                <img src="ana-resim.png">
+            </div>
+            <div class="orta-sag">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>
+                    Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır.
+                </p>
+                <img src="100.jpg">
+                <img class="orta-resim" src="100.jpg">
+                <img src="100.jpg">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="icerik">
+            <div class="card">
+                <h1>Ürün Açıklaması</h1>
+                <img src="100.jpg">
+                <p>
+                    Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+                </p>
+                <div class="button">
+                    <a href="#">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="card orta-card">
+                <h1>Ürün Açıklaması</h1>
+                <img src="100.jpg">
+                <p>
+                    Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+                </p>
+                <div class="button">
+                    <a href="#">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="card">
+                <h1>Ürün Açıklaması</h1>
+                <img src="100.jpg">
+                <p>
+                    Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+                </p>
+                <div class="button">
+                    <a href="#">Daha Fazla</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
