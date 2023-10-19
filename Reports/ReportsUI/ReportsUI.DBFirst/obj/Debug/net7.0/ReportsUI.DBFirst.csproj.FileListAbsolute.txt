@@ -1,0 +1,14 @@
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\bin\Debug\net7.0\ReportsUI.DBFirst.deps.json
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\bin\Debug\net7.0\ReportsUI.DBFirst.dll
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\bin\Debug\net7.0\ReportsUI.DBFirst.pdb
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ReportsUI.DBFirst.csproj.AssemblyReference.cache
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ReportsUI.DBFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ReportsUI.DBFirst.AssemblyInfoInputs.cache
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ReportsUI.DBFirst.AssemblyInfo.cs
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ReportsUI.DBFirst.csproj.CoreCompileInputs.cache
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ReportsUI.DBFirst.dll
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\refint\ReportsUI.DBFirst.dll
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ReportsUI.DBFirst.pdb
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ref\ReportsUI.DBFirst.dll
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\bin\Debug\net7.0\ReportsUI.DBFirst.runtimeconfig.json
+C:\Users\fnsss\Documents\Reports\ReportsUI\ReportsUI.DBFirst\obj\Debug\net7.0\ReportsUI.DBFirst.genruntimeconfig.cache

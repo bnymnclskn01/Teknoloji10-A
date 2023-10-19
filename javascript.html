@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input placeholder="1. Kenar Giriniz" type="text" id="txtKenar1">
+    <input placeholder="2. Kenar Giriniz" type="text" id="txtKenar2">
+    <button id="btn">HESAPLA</button>
+    <div id="sonuc"></div>
+    <script>
+        function Hesapla()
+		{
+			var k1=Number(document.getElementById("txtKenar1").value);
+			var k2=Number(document.getElementById("txtKenar2").value);
+			var hipotenus=Math.sqrt((k1*k1)+(k2*k2));
+			document.getElementById("sonuc").innerHTML="Hipotenüs : "+hipotenus;
+		}
+		var hesapBtn=document.getElementById("btn");
+		hesapBtn.onclick=Hesapla;
+    </script>
+</body>
+</html>
